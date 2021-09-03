@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+index.js file was not deferred in html document so console.log ran before '#header' was defined.
 ```
 
 ## Deliverable 2
