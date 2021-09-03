@@ -11,6 +11,14 @@ header.style.color = "red";
 
 /***** Deliverable 3 *****/
 console.log("PLAYERS array looks like this:", PLAYERS)
+const playerContainer = document.querySelector(".player-container")
+
+PLAYERS.forEach
+
+function renderplayerContainer (array) {
+document.createElement('div');
+playerContainer.appendChild()
+}
 
 //select DOM element
 //create div
