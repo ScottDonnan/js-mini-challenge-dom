@@ -13,12 +13,25 @@ header.style.color = "red";
 console.log("PLAYERS array looks like this:", PLAYERS)
 const playerContainer = document.querySelector(".player-container")
 
-PLAYERS.forEach
+PLAYERS.forEach(renderplayerContainer);
 
-function renderplayerContainer (array) {
-document.createElement('div');
-playerContainer.appendChild()
+function renderplayerContainer(array){
+    const cards = document.createElement('div');
+    cards.className = 'player';
+    cards.dataNumber = array.number;
+    playerContainer.append(cards);
+
+    const playerName = document.createElement('h3');
+    // playerName.innerHTML(array.player)
+    //playerContainer.appendChild();
+    playerContainer.append(playerName);
+
+    const image = document.createElement('img');
+    image.src = array.photo;
+    image.alt = array.player;
+    playerContainer.append(image);
 }
+
 
 //select DOM element
 //create div
